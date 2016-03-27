@@ -178,9 +178,9 @@ function initialize() {
             content += '<tr><td>' + sheetPAMS['A9'].v + '</td><td>' + sheetPAMS['B9'].v + '</td></tr>';
             content += '<tr><td>' + sheetPAMS['A10'].v + '</td><td>' + sheetPAMS['B10'].v + '</td></tr>';
             content += '<tr><td>' + sheetPAMS['C5'].v + '</td><td>' + sheetPAMS['D5'].v + '</td></tr>';
-            content += '<tr><td>' + sheetPAMS['C6'].v + '</td><td>' + sheetPAMS['D6'].v + '</td></tr>';
-            content += '<tr><td>' + sheetPAMS['C7'].v + '</td><td>' + sheetPAMS['D7'].v + '</td></tr>';
-            content += '<tr><td>' + sheetPAMS['C8'].v + '</td><td>' + sheetPAMS['D8'].v + '</td></tr>';
+            content += '<tr><td>' + sheetPAMS['C6'].v + '</td><td>' + sheetPAMS['D6'].w + '</td></tr>';
+            content += '<tr><td>' + sheetPAMS['C7'].v + '</td><td>' + sheetPAMS['D7'].w + '</td></tr>';
+            content += '<tr><td>' + sheetPAMS['C8'].v + '</td><td>' + sheetPAMS['D8'].w + '</td></tr>';
             content += '<tr><td>' + sheetPAMS['C9'].v + '</td><td>' + sheetPAMS['D9'].v + '</td></tr>';            
             $('#pams .data-info').html(content);
 
@@ -201,9 +201,9 @@ function initialize() {
             content += '<tr><td>' + sheetUAT['A9'].v + '</td><td>' + sheetUAT['B9'].v + '</td></tr>';
             content += '<tr><td>' + sheetUAT['A10'].v + '</td><td>' + sheetUAT['B10'].v + '</td></tr>';
             content += '<tr><td>' + sheetUAT['C5'].v + '</td><td>' + sheetUAT['D5'].v + '</td></tr>';
-            content += '<tr><td>' + sheetUAT['C6'].v + '</td><td>' + sheetUAT['D6'].v + '</td></tr>';
-            content += '<tr><td>' + sheetUAT['C7'].v + '</td><td>' + sheetUAT['D7'].v + '</td></tr>';
-            content += '<tr><td>' + sheetUAT['C8'].v + '</td><td>' + sheetUAT['D8'].v + '</td></tr>';
+            content += '<tr><td>' + sheetUAT['C6'].v + '</td><td>' + sheetUAT['D6'].w + '</td></tr>';
+            content += '<tr><td>' + sheetUAT['C7'].v + '</td><td>' + sheetUAT['D7'].w + '</td></tr>';
+            content += '<tr><td>' + sheetUAT['C8'].v + '</td><td>' + sheetUAT['D8'].w + '</td></tr>';
             content += '<tr><td>' + sheetUAT['C9'].v + '</td><td>' + sheetUAT['D9'].v + '</td></tr>';            
             $('#uat .data-info').html(content);
 
